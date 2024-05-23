@@ -197,7 +197,7 @@
                     "destination": "PT_PAYMENT"
                 }
             };
-            sendMessage(payload)
+            sendMessage(JSON.stringify(payload))
        } catch(error) {
            alert(error)
        }
@@ -213,7 +213,7 @@
                     "campaignId": "1234abcd"
                 }
             };
-            sendMessage(payload)
+            sendMessage(JSON.stringify(payload))
        } catch(error) {
            alert(error)
        }
@@ -227,7 +227,7 @@
                     "destination": "PT_TOPUP"
                 }
             };
-            sendMessage(payload)
+            sendMessage(JSON.stringify(payload))
        } catch(error) {
            alert(error)
        }
@@ -242,7 +242,7 @@
                     "payeeCode": "12C"
                 }
             };
-            sendMessage(payload)
+            sendMessage(JSON.stringify(payload))
        } catch(error) {
            alert(error)
        }
